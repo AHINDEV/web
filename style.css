@@ -1,0 +1,285 @@
+@font-face {
+    font-family: logo;
+    src: url('');
+}
+@font-face {
+    font-family: main;
+    src: url('css/SpaceMono-Bold.ttf');
+}
+@font-face {
+    font-family: para;
+    src: url('css/SpaceMono-Regular.ttf');
+}
+ul li{
+    color:  #D3C5E5;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar-brand{
+    font-size: 20px;
+    font-weight: 600;
+}
+.navbar{
+    border-radius: 15px;
+}
+#head1{
+    color: #ffffff;
+}
+.par{
+    color: antiquewhite;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.main-head{
+    color: #1e008a ;
+    font-family:Arial, ;
+    font-weight: 500;
+    
+    
+}
+/* From Uiverse.io by bandirevanth */ 
+.custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5),
+      7px 7px 20px 0px rgba(0,0,0,.1),
+      4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+   }
+   
+   .btn-1 {
+    background: rgb(96,9,240);
+    background: linear-gradient(0deg, rgba(96,9,240,1) 0%, rgba(129,5,240,1) 100%);
+    border: none;
+   }
+   
+   .btn-1:before {
+    height: 0%;
+    width: 2px;
+   }
+   
+   .btn-1:hover {
+    box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5),
+                 -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+       inset -4px -4px 6px 0 rgba(255,255,255,.2),
+       inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+   }
+.para2{
+    font-size: 20px;
+    color: #d4cdde;
+    font-family: Arial,;
+    font-weight: 400;
+}
+/* From Uiverse.io by gharsh11032000 */ 
+
+  /* From Uiverse.io by naveenkumarr-onyx */ 
+.card {
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .card:hover {
+    border-bottom: 5px solid violet;
+    transform: scale(1.2);
+    transition: 1s ease-in-out;
+  }
+  
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .body {
+    padding: 20px;
+  }
+  
+  .skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .skill-name {
+    width: 120px;
+    font-size: 16px;
+  }
+  
+  .html:hover {
+    color: blue;
+  }
+  
+  .css:hover {
+    color: purple;
+  }
+  
+  .js:hover {
+    color: red;
+  }
+  
+  .skill-level {
+    width: 160px;
+    height: 10px;
+    background-color: #eee;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 20px;
+  }
+  
+  .skill-percent {
+    background-color: #333;
+    height: 100%;
+  }
+  
+  .skill-percent-number {
+    margin-left: 20px;
+    font-size: 16px;
+  }
+ /* From Uiverse.io by Juanes200122 */ 
+.cotainer {
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+    background: #d1c9c9;
+    margin: 0 15px;
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+  
+  .cotainer .skill-box {
+    width: 100%;
+    margin: 25px 0;
+  }
+  
+  .skill-box .title {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .skill-box .skill-bar {
+    height: 8px;
+    width: 100%;
+    border-radius: 6px;
+    margin-top: 6px;
+    background: rgba(0,0,0,0.1);
+  }
+  
+  .skill-bar .skill-per {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 86%;
+    border-radius: 9px;
+    background: #4070f4;
+    animation: progress 0.4s ease-in-out forwards;
+    opacity: 2;
+  }
+  .skill-bar .skill-per.bash {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 20%;
+    border-radius: 6px;
+    background: #ff0000;
+    animation: progress 0.4s ease-in-out forwards;
+    opacity: 0;
+  }
+  
+  .skill-per.html {
+     /*progreso de las diferentes lenguajes*/
+    width: 89%;
+    animation-delay: 0.2s;
+  }
+  
+  .skill-per.css {
+           /*progreso de las diferentes lenguajes*/
+    width: 70%;
+    animation-delay: 0.3s;
+  }
+  
+  .skill-per.javascript {
+        /*progreso de las diferentes lenguajes*/
+    width: 50%;
+    animation-delay: 0.3s;
+  }
+  
+  .skill-per.nodejs {
+        /*progreso de las diferentes lenguajes*/
+    width: 30%;
+    animation-delay: 0.4s;
+  }
+  .skill-per.bash {
+    /*progreso de las diferentes lenguajes*/
+width: 30%;
+animation-delay: 0.5s;
+}
+.skill-per.django {
+    /*progreso de las diferentes lenguajes*/
+width: 80%;
+animation-delay: 0.6s;
+}
+  
+  @keyframes progress {
+    0% {
+      width: 0;
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .skill-per .tooltip {
+    position: absolute;
+    right: -14px;
+    top: -28px;
+    font-size: 9px;
+    font-weight: 500;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 3px;
+    background: #4070f4;
+    z-index: 1;
+  }
+  
+  .tooltip::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -2px;
+    height: 10px;
+    width: 10px;
+    z-index: -1;
+    background-color: #4070f4;
+    transform: translateX(-50%) rotate(45deg);
+  } 
+.head3{
+    font-family: verdana;
+    color: #eddfff;
+    font-weight: bold;
+}
+.para4{
+    font-size: 20px;
+    color: #fcfcfc;
+    font-style: inherit;
+    font-weight: bold;
+    
+}
